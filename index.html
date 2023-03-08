@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style2.css">
     <title>Portfólio</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho_navegacao">
+            <a href="index.html" class="cabecalho_navegacao_link">Home</a>
+            <a href="about.html" class="cabecalho_navegacao_link">Sobre mim</a>
+            <a href="curriculum.html" class="cabecalho_navegacao_link">Curriculum</a>
+        </nav>
+    </header>
     <main class="principal">
         <section class="principal__conteudo">
             <h1 class="principal__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="destaque_blue">com um Front-end de qualidade!</strong></h1>
             <p class="principal__conteudo__texto">Olá! Sou Pix da Silva , desenvolvedor Front-end com especialidade em React, HTML e CSS.
                  Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="principal__links">
-                <a href="https://www.instagram.com/andref_b/" class="principal__links_link">Instagram</a>
-                <a href="https://github.com/andre-fil" class="principal__links_link">GitHub</a>
+                <h2 class="principal__links_subtitulo">Acesse minhas redes: </h2>
+                <a href="https://www.instagram.com/andref_b/" class="principal__links_link">
+                    <img src="./assets/instagram.png" alt="Img instagram">
+                    Instagram
+                </a>
+                <a href="https://github.com/andre-fil" class="principal__links_link">
+                    <img src="./assets/github.png" alt="img GitHub">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/andré-barreto-9a2186229/" class="principal__links_link">
+                    <img src="./assets/linkedin.png" alt="Img Linkedin">
+                    Linkedin
+                </a>
             </div>
         </section>
-        <img src="pix.png" alt="Pix da silva">
+        <img src="./assets/pix.png" alt="Pix da silva" class="img_principal">
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <p class="footer_paragrafo"><strong>São Luis - Ma</strong></p>
+        <p class="footer_paragrafo"><strong>&copy; André Barreto</strong></p>
+        <p class="footer_paragrafo"><strong>2023</strong></p>
+    </footer>
 </body>
 </html>
