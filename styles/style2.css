@@ -279,7 +279,6 @@ color: var(--cor-secundaria-border)
     .cabecalho_navegacao{
         gap: 30px;
         align-items: center;
-        background-color: red;
     }
 
 }
