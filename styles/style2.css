@@ -265,6 +265,10 @@ color: var(--cor-secundaria-border)
     .principal__conteudo{
         width: auto;
     }
+    .principal__conteudo__texto{
+        padding: 5% 0;
+        text-align:left;
+    }
     .principal__conteudo_curriculum{
         width: auto;
         flex-direction: column;
