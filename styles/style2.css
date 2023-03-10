@@ -280,9 +280,12 @@ color: var(--cor-secundaria-border)
     .principal__conteudo_div{
         width: auto;
 }
+.img_principal{
+    width: 60%;
+}
 .img_pix{
-    height: 45%;
-    width: 45%;
+    height: 50%;
+    width: 50%;
 }
 
 .footer{
@@ -304,10 +307,7 @@ color: var(--cor-secundaria-border)
         gap: 30px;
         align-items: center;
     }
-    .img_pix{
-        height: 40%;
-        width: 40%;
-    }
+   
 
 }
 }
