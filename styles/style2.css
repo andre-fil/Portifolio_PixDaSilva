@@ -265,6 +265,10 @@ color: var(--cor-secundaria-border)
     .principal__conteudo{
         width: auto;
     }
+
+    .principal__conteudo__titulo{
+        font-size: 1.2rem;;
+    }
     .principal__conteudo__texto{
         padding: 5% 0;
         text-align:left;
