@@ -266,7 +266,9 @@ color: var(--cor-secundaria-border)
         width: auto;
     }
 
-   
+    .principal__conteudo__titulo{
+        text-align: center;
+    }
     .principal__conteudo__texto{
         padding: 5% 0;
         text-align:left;
