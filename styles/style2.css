@@ -285,6 +285,15 @@ color: var(--cor-secundaria-border)
     width: 45%;
 }
 
+.footer{
+    padding: 3%;
+    
+}
+.footer_paragrafo{
+    font-size: 1rem;
+    margin: 0;
+}
+
 @media (max-width: 700px){
     .cabecalho_navegacao_link{
         font-size: 1.2rem;
