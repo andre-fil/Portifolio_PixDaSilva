@@ -187,20 +187,21 @@ color: var(--cor-secundaria-border)
     padding: 10px 0px 20px 0px;
     text-align: center;
     font-family: var(--fonte-principal);
-    font-size: px;
+    font-size: 1.375rem;
+    
 }
 
 .principal__conteudo_div_texto{
     text-align:justify;
     font-family: var(--fonte-secundaria);
-    font-size: 0.93rem;
+    font-size: 1.2rem;
     padding: 0px 15px;
 }
 
 .principal__conteudo_div_lista{
     text-align:justify;
     font-family: var(--fonte-secundaria);
-    font-size: 0.93rem;
+    font-size: 1.2rem;
     padding: 0px 15px;
     
 
@@ -229,13 +230,13 @@ color: var(--cor-secundaria-border)
     font-family: 'Montserrat',sans-serif;
     border-top: 1px solid var(--cor-secundaria-border);
     background-color: var(--cor-bkg-curriculum);
-    padding: 10px;
+  
    
 }
 
 .img_pix{
-    height: 70%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
 }
 
 .link_lattes{
@@ -254,10 +255,14 @@ color: var(--cor-secundaria-border)
     .cabecalho{
         padding: 10%;
     }
+    .principal__links_subtitulo{
+        font-size: 1.8rem;
+    }
 
     .cabecalho_navegacao{
         justify-content: center;
     }
+    
     .principal{
         flex-direction: column-reverse;
         padding: 5%;
@@ -272,40 +277,83 @@ color: var(--cor-secundaria-border)
     .principal__conteudo__texto{
         padding: 5% 0;
         text-align:justify;
+        font-size: 1.8rem;
     }
     .principal__conteudo_curriculum{
         width: auto;
         flex-direction: column;
     }
     .principal__conteudo_div{
-        width: auto;
-}
-.img_principal{
-    width: 60%;
-}
-.img_pix{
-    height: 50%;
-    width: 50%;
-}
+            width: auto;
+    }
+    .img_principal{
+        width: 60%;
+    }
+    .img_pix{
+        width: 30%;
+    }
 
-.footer{
-    padding: 3%;
-    
-}
-.footer_paragrafo{
-    font-size: 0.9rem;
-    margin: 0;
-}
+    .footer{
+        padding: 3%;
+        
+    }
+    .footer_paragrafo{
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    .principal__conteudo_about_info{
+        width: 50%;
+       
+    }
 
-@media (max-width: 700px){
+    .principal__conteudo_about_info_list li{
+        font-size: 1.3rem;
+    }
+
+    .cabecalho_navegacao_link{
+        font-size: 1.7rem;
+    }
+
+    .principal__links_link{
+        font-size: 1.7rem;
+    }
+
+@media (min-width: 0px) and (max-width: 700px){
     .cabecalho_navegacao_link{
         font-size: 1.2rem;
     }
    
+    .principal__links_subtitulo{
+        font-size: 1.3rem;
+    }
+
+    .principal__links_link{
+        font-size: 1.375rem;
+    }
+    .cabecalho_navegacao_link{
+        font-size: 1.2rem;
+    }
    
     .cabecalho_navegacao{
         gap: 30px;
         align-items: center;
+    }
+
+    .img_pix{
+        width: 30%;
+    }
+    .principal__conteudo_about_info_list li{
+        font-size: 1rem;
+    }
+    .principal__conteudo__texto{
+        padding: 5% 0;
+        text-align:justify;
+        font-size: 1.2rem;
+    }   
+    
+    .principal__conteudo_div_titulo{
+        font-size: 1rem;
+        
     }
    
 
